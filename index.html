@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basra Game</title>
+    <link rel="stylesheet" href="./css/basra.css" />
+</head>
+<body>
+    <div id="container">
+        <div id="computer_card"><label>Computer Card</label><img class="img-s" src="./images/facedown.png"/></div>
+        <div id="computer-sec" class="clear">
+            <div id="co-score">
+                <img class="img-s" src="./images/facedown.png">
+                <br>
+                <span>Score :: <span id="compute-score">0</span></span>
+            </div>
+            <div id="co-img-div">
+            </div>
+        </div>
+        <div id="ground-container">
+            <div id="ground-deck">
+                <img class="img-s" src="./images/facedown.png">
+                <br>
+                <span id="deck">DECK</span>
+            </div>
+            <div id="ground-sec" class="clear">
+                <div id="gr-img-div">                    
+                </div>
+            </div>
+        </div>
+        <div id="player-sec" class="clear">
+            <div id="pl-score">
+                <img class="img-s" src="./images/facedown.png">
+                <br>
+                <span>Score :: <span id="player-score">0</span></span>
+            </div>
+            <div id="pl-img-div"></div>
+        </div>
+        <div id="btn-div">
+            <input id="btn" value="Start Game" type="submit"/>
+        </div>
+    </div>
+    <script src="./js/cards.js"></script>
+    <script src="./js/basra.js"></script>
+</body>
+</html>

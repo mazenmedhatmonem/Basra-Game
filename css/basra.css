@@ -1,0 +1,96 @@
+body{
+    background-size: cover;
+    background-image: url('../images/table.jpg');
+}
+#computer_card{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+#computer_card label{
+    float: left;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    font-weight: bold;
+    font-family: serif;
+    text-decoration: underline;
+    color:blue;
+}
+#computer_card img{
+    clear: both;
+    float: left;
+    display: inline-block;
+}
+#computer-sec{
+    position: absolute;
+    top: 55px;
+    left: 600px;
+    min-width: 700px;
+    max-width: 700px;
+    min-height: 170px;
+    max-height: 170px;
+}
+#co-score,#pl-score{
+    float: right;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 24px;
+    color: darkgreen;
+}
+#ground-sec{
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    min-width: 700px;
+    max-width: 700px;
+    min-height: 340px;
+    max-height: 340px;
+}
+#player-sec{
+    position: absolute;
+    top: 560px;
+    left: 600px;
+    min-width: 700px;
+    max-width: 700px;
+    min-height: 170px;
+    max-height: 170px;
+}
+.img-s{
+    width: 100px;
+    height: 150px;
+    margin-left: 5px;
+}
+
+#ground-deck{
+    position: absolute;
+    top:300px;
+    left:1195px;
+}
+
+#deck{
+    margin-left: 30px;
+    color: firebrick;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#btn-div{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+#btn{
+    font-family: monospace;
+    font-size: 30px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: burlywood;
+}
